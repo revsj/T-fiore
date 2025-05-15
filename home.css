@@ -22,9 +22,11 @@ background: var(--bg-color);
 
 }
 header{
-position: relative;
+position: fixed;
+top: 0;
+left: 0;
 width: 100%;
-z-index: 10;
+z-index: 1000;
 box-shadow: 0 1px 6px 0 rgb(32 33 36/ 10%);
 transition: all.50s ease;
 }
